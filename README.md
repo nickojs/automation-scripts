@@ -2,6 +2,16 @@
 Collection of scripts that I find useful. Don't roast me, I'm not a script professional, they *might* feel somewhat amateur.
 
 # custom-react-app
+## how to use it
+The script needs two arguments: the name of your project and the name of my template, respectively.
+
+`custom-react-app.(sh/bat) project nickojs`
+
+> You should know which file to use based on your OS.
+
+I'll edit them later to be compatible with any templates besides mine. 
+
+## why I did this
 I created [a very minimal CRA template](https://github.com/nickojs/cra-template-nickojs), it is fully configured to use the packages I need, without the bloatware that comes with *regular* CRA. 
 
 And the thing is - I need eslint - as devDependencies, but a custom CRA template will only export regular dependencies, not devDependencies. To circumvent this problem, I created a script within this template, that adds all eslint packages to work with react. 
